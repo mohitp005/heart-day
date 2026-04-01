@@ -16,8 +16,7 @@ const noMessages = [
     "Pookie please... 🥺",
     "If you say no, I will be really sad...",
     "I will be very sad... 😢",
-    "Please??? 💔",
-    "Don't do this to me...",
+    "Don't do this to me 💔...",
     "Last chance! 😭",
     "You can't catch me anyway 😜"
 ]
@@ -110,7 +109,7 @@ function handleNoClick() {
     swapGif(gifStages[gifIndex])
 
     // Runaway starts at click 5
-    if (noClickCount >= 8 && !runawayEnabled) {
+    if (noClickCount >= 7 && !runawayEnabled) {
         enableRunaway()
         runawayEnabled = true
     }
